@@ -39,7 +39,7 @@ a {
 }
 
 #banner {
-    background: linear-gradient(to left, transparent, rgb(28, 28, 28)), url(./pexels-pixabay-270348.jpg);
+    background: linear-gradient(to left, transparent, rgb(28, 28, 28)), url(./image/pexels-pixabay-270348.jpg);
     height: 50vh;
 }
 
@@ -53,14 +53,14 @@ a {
 
 }
 
-img {
+.presentation img {
     border: solid 1px transparent;
     border-radius: 50%;
     margin: 2vh;
 }
 
 .text {
-    border: solid 4px yellowgreen;
+    max-width: 70vw;
 }
 
 .text h2,
@@ -70,6 +70,50 @@ img {
 
 .text h2 {
     text-align: center;
-    font-size: 1.5rem;
-    border: solid 4px yellowgreen;
+    font-size: 2rem;
+    margin: 10vh;
+}
+
+.text p{
+    margin: auto;
+    max-width: 50%;
+}
+
+.portfolio h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item{
+    margin: 1rem;
+}
+
+/* .overlay{
+    display: none;
+} */
+
+.avatar{
+    height: 30vh;
+    width: 30vh;
+}
+
+.avatar img{
+    height: 100%;
+    width: 100%;
+}
+
+h3 a{
+    color: black;
+}
+
+.info .name,.info .description,.info .techno{
+    text-align: center;
+    margin-top: 1rem;
 }
